@@ -20,6 +20,4 @@ def find_the_cheese(array_of_strings)
   cheese_types.each do |cheese|
     array_of_strings.include?(cheese)
   end
-  
-  
 end
