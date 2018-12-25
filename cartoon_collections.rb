@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(arra_planeteer_calls)# code an argument here
   arra_planeteer_calls.collect do |item|
-    item.upcase + "!"
+    item.capitalize + "!"
   end
 end
 
