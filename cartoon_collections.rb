@@ -17,13 +17,11 @@ end
 def find_the_cheese(array_of_strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-   cheese = "nill"
+   cheese = "nil"
   cheese_types.each do |item|
     if array_of_strings.include?(item) == true 
       cheese = item
       break
-    else
-      cheese = nil
     end
   end
  cheese
