@@ -20,6 +20,7 @@ def find_the_cheese(array_of_strings)
   array_of_strings.each do |item|
     if cheese_types.include?(item) == true 
       puts item
+      break
     else
       puts nil
     end
