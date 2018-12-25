@@ -25,5 +25,5 @@ def find_the_cheese(array_of_strings)
       cheese = nil
     end
   end
-  
+  cheese
 end
