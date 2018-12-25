@@ -19,10 +19,11 @@ def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |item|
     if array_of_strings.include?(item) == true 
-      puts item
+      cheese = item
       break
     else
-      puts nil
+      cheese = nil
     end
   end
+  
 end
